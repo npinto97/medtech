@@ -1,0 +1,40 @@
+# File di sistema e cartelle Eclipse
+/.settings/
+/.project
+.classpath
+
+# Cartella delle classi compilate
+/bin/
+/build/
+
+# Output della build Maven (se usi Maven)
+/target/
+
+# File temporanei
+*.tmp
+*.log
+*.bak
+
+# File specifici di Eclipse (workspaces, cache, ecc.)
+.metadata/
+.recommenders/
+
+# File di configurazione locali
+*.launch
+
+# File di log
+*.log
+
+# Cartelle specifiche di Tomcat (se incluso nel progetto)
+/wtpwebapps/
+/wtpwebresources/
+
+# File di configurazione di Intellij (nel caso apri con Intellij)
+.idea/
+
+# File di configurazione di VSCode (se usi)
+/.vscode/
+
+# File e cartelle generati da sistema operativo
+.DS_Store
+Thumbs.db
