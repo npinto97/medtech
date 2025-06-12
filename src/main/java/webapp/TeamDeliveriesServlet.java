@@ -13,7 +13,7 @@ public class TeamDeliveriesServlet extends HttpServlet {
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             String url = "jdbc:oracle:thin:@localhost:1521/orcl";
-            Connection con = DriverManager.getConnection(url, "MEDTECH", "medtech");
+            Connection con = DriverManager.getConnection(url, "system", "oracle");
 
             String query = "SELECT customerCode, orderID, status, expectedDeliveryDate, teamCode, chiefTaxCode FROM Team_Deliveries_VW";
             PreparedStatement ps = con.prepareStatement(query);
