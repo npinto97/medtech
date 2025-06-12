@@ -26,13 +26,11 @@
             <a href="registerBatch.jsp">Registra Lotto</a><br>
             <a href="assignDeliveryForm.jsp">Assegna Consegna</a><br>
             <a href="allComplaints">Reclami Clienti (Vista)</a><br>
-            <!-- altre funzioni admin -->
         <% } %>
 
         <% if ("customer".equals(role)) { %>
             <a href="customerOrders">Ordini Clienti (Vista)</a><br>
             <a href="teamDeliveries">Consegne Team (Vista)</a><br>
-            <!-- altre funzioni customer -->
         <% } %>
 
         <a href="logout">Logout</a>

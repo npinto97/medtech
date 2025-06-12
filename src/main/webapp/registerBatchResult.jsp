@@ -45,7 +45,6 @@
     <%
         String message = (String) request.getAttribute("message");
         if (message != null) {
-            // Se il messaggio contiene "Errore", mettiamo stile errore, altrimenti successo
             boolean isError = message.toLowerCase().contains("errore");
     %>
         <div class="message <%= isError ? "error" : "success" %>">
